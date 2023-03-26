@@ -35,7 +35,7 @@ h2 {
 }
 #gamePlace {
   width: 390px;
-  height: 700px;
+  height: 680px;
   box-shadow: 0 0 5px 1px #ad2aab;
   background: transparent;
   backdrop-filter: blur(20px);
@@ -103,8 +103,7 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
   z-index: 5;
 }
 .modal {
