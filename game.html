@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div id="header">
+        <h2 id="highscore">Highscore:0</h2>
+        <h2 id="timer">Timer:0</h2>
+        <h2 id="score">Score:0</h2>
+      </div>
+      <ion-icon class="playMusicBtn" name="volume-mute-outline"></ion-icon>
+      <div class="left-wall"></div>
+      <div class="right-wall"></div>
+      <div id="gamePlace">
+        <img id="object" class="hidden" src="object00.png" />
+      </div>
+      <div class="overlay"></div>
+      <div class="modal">
+        <h2 class="textMessage">catch if you can</h2>
+        <p class="textParagraph">
+          you have 10 second to catch objects. try your best
+        </p>
+        <button class="btn-start">start</button>
+      </div>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
